@@ -1,0 +1,1042 @@
+/* ================= NAV TOP ================= */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  height: 150px;
+  align-items: center;
+  background-color: rgb(248, 251, 252);
+  border: 2px solid rgba(232, 237, 240 0.3);
+  box-shadow: 0 0 5px rgb(182, 187, 190);
+  border: none;
+  position: sticky;
+  top: 0;
+  bottom: 0;
+}
+
+#nav {
+  display: flex;
+  padding: 15px;
+  align-items: center;
+  gap: 50px;
+}
+
+.logo img {
+  margin-left: 50px;
+  width: 38px;
+  height: 23px;
+}
+
+.icon {
+  background-image: linear-gradient(rgb(226, 220, 220), white);
+  padding: 9px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:hover {
+  color: rgb(53, 32, 210);
+}
+
+/* ================ NAV MIDDLE =============== */
+#nav1 {
+  display: flex;
+  padding: 13px;
+  align-items: center;
+  gap: 30px;
+
+}
+
+.inputfield1 img {
+  width: 60px;
+  height: 42px;
+}
+
+.inputfield2 {
+  width: 260px;
+  height: 45px;
+}
+
+.inputfield3 {
+  width: 440px;
+  height: 44px;
+}
+
+.input {
+  text-align: center;
+  border-radius: 5px;
+  border-color: #a3a2a2;
+  box-shadow: 0 0 2px #a3a2a2;
+  border: none;
+
+}
+
+.input1 {
+  padding: 15px;
+  border-radius: 5px;
+  border-color: #a3a2a2;
+  box-shadow: 0 0 2px #a3a2a2;
+  border: none;
+
+}
+
+.iconic {
+  position: relative;
+}
+
+.fa2 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding: 11px;
+  font-size: 22px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.fa1 {
+  position: relative;
+  font-size: 22px;
+}
+
+.fa22 {
+  position: relative;
+  top: 6px;
+  right: 32px;
+  font-size: 22px;
+
+}
+
+.fa1 {
+  position: relative;
+  top: 3px;
+  left: 25px;
+}
+
+.login {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: 2px underline;
+}
+
+.login:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.button {
+  border-top: 6px solid aqua;
+  border-bottom: 6px solid rgb(23, 158, 48);
+  border-right: 6px solid rgb(44, 44, 226);
+  border-left: 6px solid rgb(219, 219, 71);
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px;
+  width: 100px;
+  height: 45px;
+}
+
+.iconic .fa-magnifying-glass {
+  background-color: #002F34;
+  color: aliceblue;
+}
+
+/* ================== HEAD BOTTOM =================== */
+
+#headBottom {
+  display: flex;
+  /* border: 2px solid black;
+    width :80%;
+    height:60px; */
+  margin-top: 20px;
+  margin-left: 60px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  margin-left: 30px;
+  padding-top: 5px;
+}
+
+h3,
+li {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+li:hover {
+  color: #1d818c;
+  cursor: pointer;
+}
+
+.angle {
+  font-size: 20px;
+}
+
+#picSection {
+  margin-top: 40px;
+}
+
+.img img {
+  width: 91%;
+  height: 32vh;
+  margin-left: 5%;
+}
+
+.pic img {
+  width: 68%;
+  height: 180px;
+  margin-left: 16%;
+  margin-top: 26px;
+}
+
+/* =================== ALL CATEGORIES SECTION ===================== */
+
+#section {
+  /* border: 2px solid black; */
+  width: 93%;
+  margin: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+
+}
+
+.head {
+  font-size: 22px;
+  margin-left: 50px;
+  margin-top: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.flexImages {
+  width: 90px;
+  height: 90px;
+  margin-top: 20px;
+}
+
+.box {
+  /* border: 2px solid blue; */
+  width: 90px;
+  height: 130px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.box1 {
+  /* border: 2px solid blue; */
+  width: 100px;
+  height: 160px;
+  text-align: center;
+}
+
+/* =========================== CARDS SECTION =========================== */
+.headings {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  margin-top: 50px;
+}
+
+.headings h5 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-right: 40px;
+  font-size: 14px;
+  padding-bottom: 6px;
+  color: rgb(49, 49, 237)
+}
+
+.headings h4 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 36px;
+  margin-right: 50px;
+  font-size: 22px;
+}
+
+i {
+  padding-left: 5px;
+}
+
+.cards {
+  border: 1px solid rgb(78, 76, 76);
+  box-shadow: 0 0 2px rgb(153, 151, 151);
+  width: 270px;
+  height: 310px;
+  border-radius: 3px;
+  border: none;
+}
+
+.cardpic img {
+  width: 100%;
+  height: 150px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.cardpic:hover {
+  cursor: pointer;
+}
+
+.fa-heart {
+  margin-left: 85%;
+}
+
+p {
+  font-family: Roboto, Helvetica, sans-serif;
+  padding: 0 20px;
+  line-height: 1.4em;
+}
+
+.cards h3 {
+  padding: 0 20px;
+  padding-top: 10px;
+  display: inline-block;
+}
+
+p.one {
+  padding-top: 8px;
+  padding-left: 20px;
+}
+
+p.two {
+  padding: 10px;
+  padding-left: 20px;
+}
+
+#maincard {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* icon of  speed */
+
+.speed {
+  padding-left: 0px;
+}
+
+.heart {
+  padding-top: 15px;
+}
+
+
+/* ================== Footer Section ==================== */
+
+/* --------- Footer 1 --------- */
+
+.footImg img {
+  width: 350px;
+  height: 100%;
+  margin-left: 25px;
+}
+
+#appPicture {
+  display: flex;
+}
+
+#footer {
+  display: flex;
+  background-color: #f3f8f8;
+  margin-top: 10px;
+}
+
+#paragraph {
+  border-right: 1px solid rgb(165, 157, 157);
+  width: 365px;
+  height: 130px;
+  margin: auto;
+  margin-right: 10px;
+}
+
+#paragraph h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 18px;
+  font-size: 1.7em;
+}
+
+#paragraph p {
+  padding-top: 20px;
+  line-height: 1.5em;
+  font-size: 1.2em;
+
+}
+
+.mainApp {
+  padding-top: 60px;
+  margin-right: 33px;
+}
+
+.mainApp p {
+  padding-bottom: 8px;
+  word-spacing: 0.2em;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#app1 img {
+  width: 140px;
+  height: 56px;
+}
+
+.app2 img {
+  width: 133px;
+  height: 42px;
+  padding-top: 6px;
+}
+
+.app3 img {
+  width: 110px;
+  height: 35px;
+  padding-top: 8px;
+  padding-left: 5px;
+  ;
+}
+
+/* ----------- Footer 2 --------- */
+
+#foot {
+  display: flex;
+  border: 2px solid rgb(223, 218, 218);
+  width: 97%;
+  /* increase */
+  height: 180px;
+  gap: 60px;
+  padding-left: 30px;
+  background-color: #eaf0f0;
+  padding-top: 20px;
+}
+
+#one img {
+  width: 90px;
+  height: 35px;
+}
+
+.two img {
+  width: 85px;
+  height: 27px;
+  margin-top: 4px;
+}
+
+.three img {
+  width: 75px;
+  height: 22px;
+  margin-top: 6px;
+  margin-left: 4px;
+}
+
+.bottom2 {
+  display: flex;
+  margin-top: 25px;
+}
+
+ol {
+  list-style-type: none;
+}
+
+ol>li {
+  color: rgb(93, 91, 91);
+}
+
+h5 {
+  padding-bottom: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  color: black;
+}
+
+.bottomIcon a {
+  padding-right: 6px;
+}
+
+.bottom {
+  margin-left: 35px;
+}
+
+/*------------------ last foot ------------- */
+.lastFoot {
+  background-color: #002F34;
+  color: white;
+  height: 45px;
+  width: 100%;
+}
+
+.lastFoot p {
+  font-size: 11px;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+  padding: 13px;
+  padding-right: 50px;
+}
+
+/* ========================= MEDIA QUERY =========================== */
+
+@media only screen and (max-width:1024px) {
+  .inputfield1 img {
+    display: none;
+  }
+
+  .inputfield3 {
+    width: 320px;
+    height: 44px;
+  }
+
+  .logo img {
+    margin-left: 50px;
+    width: 60px;
+    height: 35px;
+  }
+
+  li {
+    font-size: 10px;
+  }
+
+  .pic img {
+    height: 150px;
+  }
+
+  #mainsection {
+    margin-left: 55px;
+  }
+
+  .gaib {
+    display: none;
+  }
+
+  .headings h4 {
+    margin-left: 70px;
+  }
+
+  .headings h5 {
+    margin-right: 65px;
+  }
+
+  .footImg img {
+    width: 300px;
+    height: 100%;
+    margin-left: 15px;
+  }
+
+  .bottom {
+    margin-right: 30px;
+  }
+
+  #paragraph h2 {
+    font-size: 1.4em;
+  }
+
+  #paragraph p {
+    font-size: 1em;
+  }
+}
+
+/* ---------------------------------- */
+
+@media only screen and (max-width:976px) {
+
+  .inputfield2 {
+    width: 200px;
+    height: 45px;
+  }
+
+  .inputfield3 {
+    width: 300px;
+    height: 44px;
+  }
+
+  #mainsection {
+    margin-left: 23px;
+  }
+
+  .button {
+    margin-left: 23px;
+  }
+
+  .mainApp {
+    margin-bottom: 40px;
+  }
+}
+
+/* ----------------------------------- */
+
+@media only screen and (max-width:970px) {
+
+  .footImg img {
+    width: 240px;
+    height: 100%;
+    margin-left: 10px;
+  }
+}
+
+/* ---------------------------------------- */
+
+@media only screen and (max-width:925px) {
+
+  #section {
+    width: 83%;
+  }
+
+  #app1 img {
+    width: 90px;
+    height: 50px;
+  }
+
+  .app2 img {
+    width: 90px;
+    height: 38px;
+    padding-top: 6px;
+  }
+
+  .app3 img {
+    width: 80px;
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 5px;
+    ;
+  }
+
+  .mainApp {
+    margin-bottom: 40px;
+  }
+
+  #foot {
+    width: 100%;
+  }
+}
+
+/* ----------------------------------- */
+
+@media only screen and (max-width:907px) {
+
+  .inputfield2 {
+    display: none;
+  }
+
+  .icons {
+    visibility: hidden;
+  }
+
+  .bottom2 {
+    display: none;
+  }
+
+  .inputfield3 {
+    width: 440px;
+    height: 44px;
+  }
+
+  #foot {
+    padding-left: 10px;
+  }
+
+  .bottom {
+    width: 200px;
+    margin-left: 0;
+    margin-top: 35px;
+  }
+
+  .bottomIcon a {
+    border: 2px solid black;
+    width: 16px;
+  }
+}
+
+/* ------------------------------ */
+
+@media only screen and (max-width:880px) {
+  .cards {
+    width: 250px;
+    height: auto;
+  }
+}
+
+/* ----------------------------------- */
+
+@media only screen and (max-width:860px) {
+
+  #section {
+    width: 85%;
+    height: auto;
+  }
+
+  .img img {
+    height: 150px;
+  }
+}
+
+/* ------------------------------------- */
+
+@media only screen and (max-width:842px) {
+  #foot {
+    padding-left: 5px;
+    gap: 10px;
+  }
+
+  .button {
+    width: 80px;
+    height: 40px;
+    font-size: 12px;
+  }
+
+}
+
+/* ----------------------------------- */
+
+@media only screen and (max-width:822px) {
+
+  .button {
+    position: relative;
+    top: 410px;
+    right: 25%;
+  }
+
+  .cards {
+    width: 235px;
+  }
+
+  .pic img {
+    height: 100px;
+  }
+
+  .img img {
+    height: 150px;
+  }
+
+  #nav1 {
+    padding-top: 10px;
+    gap: 0;
+  }
+
+  .login {
+    margin-left: 20px;
+  }
+}
+
+/* --------------------------------------- */
+
+@media only screen and (max-width:782px) {
+  .footImg {
+    display: none;
+  }
+}
+
+/* ------------------------------------ */
+
+@media only screen and (max-width:736px) {
+
+  .inputfield3 {
+    width: 400px;
+    height: 44px;
+  }
+
+  #headBottom h3,
+  ul {
+    display: none;
+  }
+}
+
+/* --------------------------------- */
+
+@media only screen and (max-width:665px) {
+
+  .gaib1 {
+    display: none;
+  }
+
+  #maincard {
+    gap: 50px;
+  }
+
+  #section {
+    width: 80%;
+  }
+}
+
+/* --------------------------------- */
+
+@media only screen and (max-width:647px) {
+  .inputfield3 {
+    width: 350px;
+    height: 44px;
+  }
+}
+
+/* ----------------------------- */
+
+@media only screen and (max-width:603px) {
+  .inputfield3 {
+    width: 280px;
+    height: 40px;
+  }
+
+  .iconic .fa-magnifying-glass {
+    background-color: transparent;
+    color: black;
+    font-size: 15px;
+  }
+
+  #maincard {
+    gap: 20px;
+  }
+}
+
+/* ----------------------------------- */
+
+@media only screen and (max-width:565px) {
+  #footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #paragraph {
+    margin: auto;
+    margin-top: 40px;
+    border-left: 1px solid rgb(165, 157, 157);
+    text-align: center;
+  }
+}
+
+/* ------------------------------------------- */
+
+@media only screenand and (max-width:526px) {
+
+  .inputfield3 {
+    padding: 0;
+    display: flex;
+  }
+
+  #foot {
+    flex-direction: column;
+  }
+}
+
+/* ---------------------------------------- */
+
+@media only screen and (max-width:483px) {
+  .logo img {
+    margin-left: 20px;
+    width: 42px;
+    height: 25px;
+  }
+
+  #nav {
+    gap: 20px;
+  }
+
+  #nav a {
+    font-size: 10px;
+  }
+
+  .fa2 {
+    top: 22px;
+    right: 5px;
+  }
+}
+
+/* ------------------------------------ */
+
+@media only screen and (max-width:435px) {
+
+  #maincard {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .cards {
+    width: 260px;
+    height: 315px;
+  }
+
+  #section {
+    width: 84%;
+  }
+}
+
+/* --------------------------------------- */
+
+@media only screen and (max-width:434px) {
+  .img img {
+    height: 80px;
+  }
+
+  .pic img {
+    height: 50px;
+  }
+
+  #section {
+    width: 88%;
+  }
+
+  .inputfield3 {
+    width: 220px;
+    margin: 0 10px 0 0;
+  }
+
+  .login {
+    font-size: 12px;
+  }
+
+  #mainsection h3 {
+    font-size: 15px;
+  }
+
+  #section h5 {
+    font-size: 12px;
+  }
+
+  .headings h4 {
+    font-size: 15px;
+  }
+
+  #foot {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    width: auto;
+    gap: 20px;
+  }
+
+  .bottom {
+    margin: auto;
+  }
+
+  #paragraph {
+    width: 230px;
+  }
+
+  .logo img {
+    margin-left: 10px;
+    width: 38px;
+    height: 24px;
+  }
+
+  #nav {
+    gap: 20px;
+  }
+
+  #nav a {
+    font-size: 10px;
+  }
+
+  .headings h5 {
+    margin-right: 30px;
+    font-size: 10px;
+  }
+
+  .headings h4 {
+    margin-left: 36px;
+    margin-right: 30px;
+    font-size: 13px;
+  }
+
+  .button {
+    top: 420px;
+    right: 45%;
+    font-size: 10px;
+  }
+}
+
+/* ---------------------------------------- */
+
+@media only screen and (max-width:320px) {
+  .img img {
+    height: 80px;
+  }
+
+  .pic img {
+    height: 50px;
+  }
+
+  #section {
+    width: 88%;
+  }
+
+  .inputfield3 {
+    width: 220px;
+    margin: 0 10px 0 0;
+  }
+
+  .login {
+    font-size: 12px;
+  }
+
+  #mainsection h3 {
+    font-size: 15px;
+  }
+
+  #section h5 {
+    font-size: 12px;
+  }
+
+  .headings h4 {
+    font-size: 15px;
+  }
+
+  #foot {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    width: auto;
+    gap: 20px;
+  }
+
+  .bottom {
+    margin: auto;
+  }
+
+  #paragraph {
+    width: 230px;
+  }
+
+  .logo img {
+    margin-left: 10px;
+    width: 38px;
+    height: 24px;
+  }
+
+  #nav {
+    gap: 20px;
+  }
+
+  #nav a {
+    font-size: 10px;
+  }
+
+  .headings h5 {
+    margin-right: 30px;
+    font-size: 10px;
+  }
+
+  .headings h4 {
+    margin-left: 36px;
+    margin-right: 30px;
+    font-size: 13px;
+  }
+
+  .button {
+    top: 420px;
+    right: 45%;
+    font-size: 10px;
+  }
+}
